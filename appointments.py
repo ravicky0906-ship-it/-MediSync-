@@ -7,9 +7,8 @@ class Appointment:
         self.city = city  
         self.state = state  
 
-    def schedule(self):  
-        return (f"Appointment scheduled for {self.patient_name} with Dr. {self.doctor_name} "  
-                f"on {self.date} at {self.time} in {self.city}, {self.state}.")  
+    def schedule(self):
+        return f"Appointment scheduled for {self.patient_name} with Dr. {self.doctor_name} on {self.date} at {self.time}."
 
 # Sample usage  
 if __name__ == "__main__":  
